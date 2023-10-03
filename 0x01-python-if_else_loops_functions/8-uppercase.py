@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# 8-uppercase.py
+
 def uppercase(input_str):
     """Convert and display a string in uppercase."""
     for new_char in input_str:
