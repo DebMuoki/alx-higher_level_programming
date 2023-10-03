@@ -1,11 +1,8 @@
-#!/usr/bin/python3
-# 8-uppercase.py
-
 def uppercase(input_str):
-    for char in input_str:
-        if ord('a') <= ord(char) <= ord('z'):
-            uppercase_char = chr(ord(char) - ord('a') + ord('A'))
-            print(uppercase_char, end='')
-        else:
-            print(char, end='')
-    print()
+    """Convert and display a string in uppercase."""
+    for new_char in input_str:
+        if ord(new_char) >= 97 and ord(new_char) <= 122:
+            new_char = chr(ord(new_char) - 32)
+        print("{}".format(new_char), end="")
+    print("")
+
