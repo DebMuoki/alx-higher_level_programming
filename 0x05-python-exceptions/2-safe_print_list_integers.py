@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 def safe_print_list_integers(my_list=[], x=0):
     printed = 0
 
@@ -11,4 +10,7 @@ def safe_print_list_integers(my_list=[], x=0):
             pass
 
     print()
+    if x > len(my_list):
+        raise IndexError("list index out of range")
+
     return printed
