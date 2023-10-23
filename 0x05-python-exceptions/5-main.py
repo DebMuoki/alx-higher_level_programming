@@ -5,6 +5,3 @@ try:
     raise_exception()
 except TypeError as te:
     print("Exception raised")
-
-guillaume@ubuntu:~/0x05$ ./5-main.py
-Exception raised
