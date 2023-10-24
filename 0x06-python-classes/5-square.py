@@ -66,7 +66,7 @@ class Square:
     def my_print(self):
         """
         This method prints in stdout the square with the character #.
-        
+
         Prints an empty line if size is equal to 0.
         """
         if self.__size == 0:
@@ -74,4 +74,3 @@ class Square:
         else:
             for _ in range(self.__size):
                 print("#" * self.__size)
-
