@@ -3,11 +3,12 @@
 This is a module docstring. This module defines a Square class.
 """
 
+
 class Square:
     """
     This class defines a square by size.
     """
-    
+
     def __init__(self, size=0):
         """
         This method initializes the square.
@@ -58,7 +59,7 @@ class Square:
 
     def __le__(self, other):
         """
-        This method checks if one square is less than or equal to another by area.
+        Method checks if one square is less than or equal to another by area.
         """
         return self.area() <= other.area()
 
@@ -73,4 +74,3 @@ class Square:
         Checks if one square is greater than /equal to another by area.
         """
         return self.area() >= other.area()
-
