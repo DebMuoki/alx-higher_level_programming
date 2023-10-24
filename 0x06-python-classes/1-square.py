@@ -4,6 +4,7 @@ This module defines a Square class.
 Its purpose is to define a square with a certain size.
 """
 
+
 class Square:
     """
     This is a Square class.
