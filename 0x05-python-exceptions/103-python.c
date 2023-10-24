@@ -3,7 +3,7 @@
 
 void print_python_list(PyObject *p)
 {
-    long int size, alloc;
+	long int size, alloc;
     PyListObject *list;
 
     printf("[*] Python list info\n");
